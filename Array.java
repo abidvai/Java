@@ -1,25 +1,49 @@
+import java.util.*;
 
-public class Array {
-	public static void main(String[] args) {
+public class Practice{
+	public static void main(String args[]) {
 		
-		int[] values;
-		values = new int[3];
-		
-		System.out.println(values[0]);
-		
-		values[0] = 10;
-		values[1] = 20;
-		values[2] = 30;
-		
-		
-		for(int i=0; i < values.length; i++) {
-			System.out.println(values[i]);
+		Scanner sc = new Scanner(System.in);
+		int size = sc.nextInt();
+		int Numbers[] = new int[size];
+
+		//input
+		for(int i = 0; i < size; i++) {
+			  Numbers[i] = sc.nextInt();
+		}
+
+		// output 
+		for(int i = 0; i < size; i++) {
+			  System.out.println(Numbers[i]);
 		}
 		
-		int[] numbers = {5,6,7};
-		
-		for(int i=0; i < numbers.length; i++) {
-			System.out.println(numbers[i]);
-		}
-	}
+	} 
 }
+
+
+// Question is: consrtuct a array that size will be taken from user and there will be a option that is Search numbers???
+
+
+/*
+Scanner sc = new Scanner(System.in);
+
+System.out.println("Enter the size of this Array:");
+int size = sc.nextInt();
+int numbers[] = new int[size];
+
+// input: 
+System.out.println("Enter the value of this Array:");
+for(int i = 0; i < size; i++) {
+	numbers[i] = sc.nextInt();
+}
+
+System.out.println("Enter the value you want to Search: ");
+int x = sc.nextInt();
+
+// output:
+for(int i = 0; i < numbers.length; i++) {
+	if(numbers[i] == x) {
+		System.out.println("x found at index " + i);
+		}
+}
+*/
