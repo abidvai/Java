@@ -13,7 +13,7 @@ import java.util.Iterator;
  */
 public class ArrayList_Collections {
     public static void main(String[] args){
-        ArrayList<Integer> numbers = new ArrayList<>();
+        ArrayList<Integer> numbers = new ArrayList<>(); // here we can implement likedlist.
         numbers.add(10);
         numbers.add(20);
         numbers.add(30);
