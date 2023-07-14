@@ -15,7 +15,8 @@ public class Linkedlist_Collections {
     public static void main(String[] args){
         
         Queue<Integer> queue = new LinkedList<>();
-        
+
+        // To insert an element
         queue.offer(12);
         queue.offer(22);
         queue.offer(33);
